@@ -1,0 +1,30 @@
+lastAccountName: Gewalt
+timestamps:
+  login: 1557568798722
+  logout: 1557566004110
+  lastteleport: 1539992025155
+ipAddress: 109.222.10.21
+lastlocation:
+  world: flatroom
+  x: 461.87456051371095
+  y: 113.68712410352514
+  z: 676.0183208634154
+  yaw: -314.05078
+  pitch: 11.593225
+afk: false
+logoutlocation:
+  world: flatroom
+  x: 1165.9523466548574
+  y: 4.0
+  z: 114.86365761567858
+  yaw: -47.733047
+  pitch: 50.90461
+homes:
+  jungle:
+    world: SpaceTacos
+    x: 1567.1965663144142
+    y: 87.0
+    z: -622.0364006018344
+    yaw: 63.88294
+    pitch: 57.299976
+godmode: false

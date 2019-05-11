@@ -1,0 +1,94 @@
+[00:40:01] [Server thread/INFO]: Starting minecraft server version 1.12
+[00:40:01] [Server thread/INFO]: Loading properties
+[00:40:01] [Server thread/INFO]: Default game type: SURVIVAL
+[00:40:01] [Server thread/INFO]: Generating keypair
+[00:40:01] [Server thread/INFO]: Starting Minecraft server on 192.168.0.12:25565
+[00:40:01] [Server thread/INFO]: Using default channel type
+[00:40:01] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-9a1fc1e (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[00:40:01] [Server thread/WARN]: Failed to load white-list: 
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 2 path $[0]
+	at net.minecraft.server.v1_12_R1.ChatDeserializer.a(SourceFile:506) ~[craftbukkit.jar:git-Bukkit-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.ChatDeserializer.a(SourceFile:522) ~[craftbukkit.jar:git-Bukkit-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.JsonList.load(JsonList.java:174) ~[craftbukkit.jar:git-Bukkit-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.DedicatedPlayerList.D(SourceFile:123) [craftbukkit.jar:git-Bukkit-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.DedicatedPlayerList.<init>(SourceFile:30) [craftbukkit.jar:git-Bukkit-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:187) [craftbukkit.jar:git-Bukkit-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:521) [craftbukkit.jar:git-Bukkit-9a1fc1e]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_191]
+Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 2 path $[0]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[craftbukkit.jar:git-Bukkit-9a1fc1e]
+	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1401) ~[craftbukkit.jar:git-Bukkit-9a1fc1e]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:593) ~[craftbukkit.jar:git-Bukkit-9a1fc1e]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[craftbukkit.jar:git-Bukkit-9a1fc1e]
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:81) ~[craftbukkit.jar:git-Bukkit-9a1fc1e]
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:61) ~[craftbukkit.jar:git-Bukkit-9a1fc1e]
+	at net.minecraft.server.v1_12_R1.ChatDeserializer.a(SourceFile:504) ~[craftbukkit.jar:git-Bukkit-9a1fc1e]
+	... 7 more
+[00:40:02] [Server thread/INFO]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v18.11.21-1c17b10-1231-21.5.18
+[00:40:02] [Server thread/INFO]: [Essentials] Loading Essentials v2.0.1-b488
+[00:40:02] [Server thread/INFO]: [VoxelSniper] Loading VoxelSniper v5.171.0-SNAPSHOT
+[00:40:02] [Server thread/INFO]: [MassiveCore] Loading MassiveCore v2.13.2
+[00:40:02] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5.0-b727
+[00:40:02] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[00:40:02] [Server thread/INFO]: [goPaint] Loading goPaint v2.0.1
+[00:40:02] [Server thread/INFO]: [CreativeGates] Loading CreativeGates v2.13.2
+[00:40:02] [Server thread/INFO]: [goBrush] Loading goBrush v2.0
+[00:40:02] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v18.11.21-1c17b10-1231-21.5.18
+[00:40:02] [Server thread/INFO]: [0;35;1mVault is used for persistent `/wea` toggles.[m
+[00:40:02] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m ====== UPGRADE TO 64-BIT JAVA ======[m
+[00:40:02] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m You are running 32-bit Java on a 64-bit machine[m
+[00:40:02] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m  - This is only a recommendation[m
+[00:40:02] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m ====================================[m
+[00:40:02] [Server thread/INFO]: [MassiveCore] Enabling MassiveCore v2.13.2
+[00:40:02] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.13.2[0;36;22m] [0;33;1m=== ENABLE START ===[m
+[00:40:02] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.13.2[0;36;22m] [0;33;1m[0;33;1mLoading Cachefile datas...[m
+[00:40:02] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.13.2[0;36;22m] [0;33;1m[0;33;1mLoading Onlineplayer datas...[m
+[00:40:02] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.13.2[0;36;22m] [0;33;1m[0;33;1mLoading Registry datas...[m
+[00:40:02] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.13.2[0;36;22m] [0;33;1m[0;33;1mSaving Cachefile...[m
+[00:40:02] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.13.2[0;36;22m] [0;33;1m[0;33;1mSetup of IdUtil took [0;35;1m12[0;33;1mms.[m
+[00:40:04] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.13.2[0;36;22m] [0;33;1m[0;32;1mIntegration Activated [0;35;1mIntegrationLiabilityAreaEffectCloud[m
+[00:40:04] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.13.2[0;36;22m] [0;33;1m=== ENABLE [0;32;1mCOMPLETE [0;33;1m(Took [0;35;1m1730ms[0;33;1m) ===[m
+[00:40:04] [Server thread/INFO]: Preparing level "SpaceTacos"
+[00:40:04] [Server thread/INFO]: Preparing start region for level 0 (Seed: 8079897945981174379)
+[00:40:05] [Server thread/INFO]: Preparing spawn area: 23%
+[00:40:06] [Server thread/INFO]: Preparing spawn area: 60%
+[00:40:07] [Server thread/INFO]: Preparing start region for level 1 (Seed: 8079897945981174379)
+[00:40:08] [Server thread/INFO]: Preparing spawn area: 50%
+[00:40:09] [Server thread/INFO]: Preparing start region for level 2 (Seed: 8079897945981174379)
+[00:40:10] [Server thread/INFO]: [Essentials] Enabling Essentials v2.0.1-b488
+[00:40:10] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[00:40:10] [Server thread/INFO]: [Essentials] Using Reflection based provider as spawn egg provider.
+[00:40:10] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[00:40:10] [Server thread/INFO]: Using locale fr_FR
+[00:40:10] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[00:40:10] [Server thread/INFO]: [Essentials] Using config file enhanced permissions.
+[00:40:10] [Server thread/INFO]: [Essentials] Permissions listed in as player-commands will be given to all users.
+[00:40:10] [Server thread/INFO]: [VoxelSniper] Enabling VoxelSniper v5.171.0-SNAPSHOT
+[00:40:10] [Server thread/INFO]: [VoxelSniper] Registered 75 Sniper Brushes with 149 handles.
+[00:40:10] [Server thread/INFO]: [VoxelSniper] Registered Sniper Listener.
+[00:40:10] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5.0-b727
+[00:40:10] [Server thread/INFO]: Preparing start region for level 3 (Seed: -2273480848126604072)
+[00:40:11] [Server thread/INFO]: Preparing spawn area for flatroom, 73%
+[00:40:12] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[00:40:12] [Server thread/INFO]: [Multiverse-Core] Version 2.5.0-b727 (API v20) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
+[00:40:12] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[00:40:12] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[00:40:16] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R1 as the Bukkit adapter
+[00:40:16] [Server thread/INFO]: [goPaint] Enabling goPaint v2.0.1
+[00:40:16] [Server thread/INFO]: [CreativeGates] Enabling CreativeGates v2.13.2
+[00:40:16] [Server thread/INFO]: [0;36;22m[[0;36;1mCreativeGates 2.13.2[0;36;22m] [0;33;1m=== ENABLE START ===[m
+[00:40:16] [Server thread/INFO]: [0;36;22m[[0;36;1mCreativeGates 2.13.2[0;36;22m] [0;33;1m=== ENABLE [0;32;1mCOMPLETE [0;33;1m(Took [0;35;1m37ms[0;33;1m) ===[m
+[00:40:16] [Server thread/INFO]: [goBrush] Enabling goBrush v2.0
+[00:40:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:40:17] [Server thread/INFO]: Done (12,652s)! For help, type "help" or "?"
+[00:40:17] [Server thread/INFO]: Starting GS4 status listener
+[00:40:17] [Query Listener #1/INFO]: Query running on 192.168.0.12:25565
+[00:40:17] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m Detected class org.bukkit.event.block.BlockExplodeEvent[m
+[00:40:17] [pool-3-thread-9/INFO]: [goBrush] Registered 18 brushes.
+[00:40:20] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2551ms behind, skipping 51 tick(s)
+[00:40:34] [User Authenticator #1/INFO]: UUID of player MiMtv is 18b99c98-58e7-490d-b47e-47ba7ce9cfc4
+[00:40:34] [Server thread/INFO]: MiMtv[/78.126.70.71:51715] logged in with entity id 190 at ([flatroom]444.5171979184855, 159.25989568904964, 676.4170794729021)
+[00:41:04] [User Authenticator #2/INFO]: UUID of player Gewalt is 57edab0a-9e9e-46c6-b19d-9811387a1d74
+[00:41:05] [Server thread/INFO]: Gewalt[/90.50.46.118:49865] logged in with entity id 199 at ([flatroom]456.51070921107464, 69.69792261204492, 495.60101855155455)
+[00:58:54] [Server thread/INFO]: Gewalt lost connection: Disconnected
+[00:58:54] [Server thread/INFO]: Gewalt left the game

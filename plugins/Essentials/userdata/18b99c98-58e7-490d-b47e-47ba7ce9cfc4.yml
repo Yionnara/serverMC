@@ -1,0 +1,22 @@
+lastAccountName: MiMtv
+timestamps:
+  login: 1557538619196
+  logout: 1557538941755
+  lastteleport: 1539991914210
+ipAddress: 109.215.28.41
+logoutlocation:
+  world: SpaceTacos
+  x: 660.5026343333701
+  y: 129.0
+  z: -1012.1340611046554
+  yaw: 84.74931
+  pitch: 42.749958
+lastlocation:
+  world: flatroom
+  x: 453.0976762421675
+  y: 188.42269113199143
+  z: 668.7772185223614
+  yaw: 112.955315
+  pitch: 56.25001
+godmode: false
+afk: false
