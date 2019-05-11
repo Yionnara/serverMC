@@ -30,7 +30,6 @@ config:
   global_message_username: 'Space Tacos Activity'
 
   # The avatar to use when posting things like death, join and leave messages.
-
   global_message_avatar: 'https://cdn.discordapp.com/attachments/256110059249991692/576577571009855489/IconDVA.PNG'
 
   # Automaticly remove the @ when players type things like @everyone or @here.
@@ -39,8 +38,10 @@ config:
   # Send a message in Discord when somebody dies.
   # DOES NOT WORK ON BUNGEECORD SERVERS
   enable_death_messages: 'true'
+
   # Send a message in Discord when somebody leaves or joins.
-  enable_join_leave_messages: 'true'
+  enable_join_leave_messages: 'false'
+
   # Format to use when sending messages from Discord to Minecraft.
   # Can use the Bukkit color codes with the & symbol.
   # {user} will be replaced with the username and {message} with the message.
