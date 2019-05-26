@@ -1,0 +1,20 @@
+geolocation: France
+lastAccountName: DERT88
+timestamps:
+  login: 1558892998064
+  logout: 1558893443790
+ipAddress: 91.164.62.67
+lastlocation:
+  world: SpaceTacos
+  x: 28.0
+  y: 80.0
+  z: 35.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: SpaceTacos
+  x: 756.7752969030927
+  y: 69.0
+  z: -848.5194263504828
+  yaw: -39.58914
+  pitch: 15.449711
