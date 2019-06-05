@@ -349,6 +349,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "rotten_flesh": "2019-05-26 19:56:18 +0200",
       "cooked_chicken": "2017-12-17 19:01:52 +0100"
     },
     "done": false

@@ -1,5 +1,10 @@
 [
   {
+    "id": "@console",
+    "name": "@console",
+    "millis": 1558893640206
+  },
+  {
     "id": "5dff76bf-5bb4-4f9b-a034-dd79660a2982",
     "name": "nyu3000",
     "millis": 1530658554076
@@ -38,10 +43,5 @@
     "id": "577aa9e1-9539-4fe5-a357-6bb37dc26643",
     "name": "Arneus5",
     "millis": 1515004453845
-  },
-  {
-    "id": "@console",
-    "name": "@console",
-    "millis": 1557582086981
   }
 ]
