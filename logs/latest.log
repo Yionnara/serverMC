@@ -1,32 +1,24 @@
-[01:31:12] [JDA MainWS-ReadThread/WARN]: [JDA MainWS-ReadThread] WARN WebSocketClient - Got disconnected from WebSocket. Attempting to resume session
-[01:31:15] [JDA MainWS-ReadThread/WARN]: [JDA MainWS-ReadThread] INFO JDA - Successfully resumed Session!
-[11:39:41] [JDA MainWS-WriteThread/WARN]: [JDA MainWS-WriteThread] WARN WebSocketClient - Got disconnected from WebSocket. Attempting to resume session
-[11:39:44] [JDA MainWS-ReadThread/WARN]: [JDA MainWS-ReadThread] INFO JDA - Successfully resumed Session!
-[18:01:39] [JDA MainWS-ReadThread/INFO]: [[0;34;1mDiscord[0;37;1m] <TLAWEG> @MiM[m
-[18:55:40] [Server thread/INFO]: Stopping the server
-[18:55:40] [Server thread/INFO]: Stopping server
-[18:55:40] [Server thread/INFO]: [CreativeGates] Disabling CreativeGates v2.14.0
-[18:55:40] [Server thread/INFO]: [0;36;22m[[0;36;1mCreativeGates 2.14.0[0;36;22m] [0;33;1mDisabled[m
-[18:55:40] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.16.1.0
-[18:55:40] [Server thread/INFO]: [EssentialsXMPP] Disabling EssentialsXMPP v2.16.1.0
-[18:55:40] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5.0-b727
-[18:55:40] [Server thread/INFO]: [MassiveCore] Disabling MassiveCore v2.14.0
-[18:55:40] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.14.0[0;36;22m] [0;33;1m[0;31;1mIntegration Deactivated [0;35;1mIntegrationLiabilityAreaEffectCloud[m
-[18:55:40] [Server thread/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.14.0[0;36;22m] [0;33;1mDisabled[m
-[18:55:40] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.16.1.0
-[18:55:40] [Server thread/INFO]: [goBrush] Disabling goBrush v2.0
-[18:55:40] [Server thread/INFO]: [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.16.1.0
-[18:55:40] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.16.1.0
-[18:55:40] [Server thread/INFO]: [EssentialsGeoIP] Disabling EssentialsGeoIP v2.16.1.0
-[18:55:40] [Server thread/INFO]: [FastAsyncVoxelSniper] Disabling FastAsyncVoxelSniper v1.13.109
-[18:55:40] [Server thread/INFO]: [Essentials] Disabling Essentials v2.16.1.0
-[18:55:40] [Server thread/INFO]: [DiscordChat] Disabling DiscordChat v1.4.2
-[18:55:40] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v1.13-breaking
-[18:55:40] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v1.13.109
-[18:55:40] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[18:55:40] [Server thread/INFO]: Saving players
-[18:55:40] [Server thread/INFO]: Saving worlds
-[18:55:40] [Server thread/INFO]: Saving chunks for level 'SpaceTacos'/minecraft:overworld
-[18:55:40] [Server thread/INFO]: Saving chunks for level 'SpaceTacos_nether'/minecraft:the_nether
-[18:55:40] [Server thread/INFO]: Saving chunks for level 'SpaceTacos_the_end'/minecraft:the_end
-[18:55:40] [Server thread/INFO]: Saving chunks for level 'flatroom'/minecraft:overworld
+[13:02:57] [Thread-3/INFO]: Stopping server
+[13:02:54] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Erreur d'entrée/sortie
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_212]
+	at java.io.FileInputStream.read(FileInputStream.java:255) ~[?:1.8.0_212]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246) ~[?:1.8.0_212]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265) ~[?:1.8.0_212]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:246) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2349) ~[spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+	at net.minecraft.server.v1_13_R2.DedicatedServer$2.run(DedicatedServer.java:91) [spigot-1.13.2.jar:git-Spigot-1a3504a-dfa7583]
+[13:02:58] [Thread-3/INFO]: [0;36;22m[[0;36;1mCreativeGates 2.14.0[0;36;22m] [0;33;1mDisabled[m
+[13:02:59] [Thread-3/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.14.0[0;36;22m] [0;33;1m[0;31;1mIntegration Deactivated [0;35;1mIntegrationLiabilityAreaEffectCloud[m
+[13:03:00] [Thread-3/INFO]: [0;36;22m[[0;36;1mMassiveCore 2.14.0[0;36;22m] [0;33;1mDisabled[m
+[13:03:02] [Thread-3/INFO]: Saving players
+[13:03:02] [Thread-3/INFO]: Saving worlds
+[13:03:02] [Thread-3/INFO]: Saving chunks for level 'SpaceTacos'/minecraft:overworld
+[13:03:02] [Thread-3/INFO]: Saving chunks for level 'SpaceTacos_nether'/minecraft:the_nether
+[13:03:02] [Thread-3/INFO]: Saving chunks for level 'SpaceTacos_the_end'/minecraft:the_end
+[13:03:02] [Thread-3/INFO]: Saving chunks for level 'flatroom'/minecraft:overworld
