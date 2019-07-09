@@ -275,12 +275,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/sign": {
-    "criteria": {
-      "has_planks": "2017-12-17 18:24:42 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/jukebox": {
     "criteria": {
       "has_diamond": "2017-12-20 18:39:37 +0100"
@@ -710,12 +704,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/light_gray_dye_from_ink_bonemeal": {
-    "criteria": {
-      "has_black_dye": "2018-06-12 20:40:56 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/iron_shovel": {
     "criteria": {
       "has_iron_ingot": "2017-12-20 18:19:44 +0100"
@@ -812,13 +800,13 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/diamond_hoe": {
+  "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
       "has_diamond": "2017-12-20 18:39:37 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/tools/diamond_pickaxe": {
+  "minecraft:recipes/tools/diamond_hoe": {
     "criteria": {
       "has_diamond": "2017-12-20 18:39:37 +0100"
     },
@@ -839,19 +827,18 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2017-12-20 19:13:14 +0100",
-      "minecraft:polar_bear": "2018-06-12 20:40:07 +0200",
       "minecraft:skeleton": "2017-12-17 18:46:21 +0100",
-      "minecraft:husk": "2018-06-12 20:50:40 +0200",
       "minecraft:ghast": "2018-06-12 20:43:09 +0200",
       "minecraft:guardian": "2018-06-12 20:49:32 +0200",
-      "minecraft:enderman": "2018-01-03 14:18:35 +0100",
       "minecraft:vindicator": "2018-06-12 20:51:45 +0200",
-      "minecraft:stray": "2017-12-20 18:08:07 +0100",
       "minecraft:spider": "2017-12-17 18:47:51 +0100",
-      "minecraft:zombie": "2017-12-17 18:44:22 +0100",
       "minecraft:creeper": "2018-01-03 12:56:42 +0100",
-      "minecraft:zombie_villager": "2017-12-17 22:46:45 +0100",
-      "minecraft:evoker": "2018-06-12 20:50:01 +0200"
+      "minecraft:evoker": "2018-06-12 20:50:01 +0200",
+      "minecraft:husk": "2018-06-12 20:50:40 +0200",
+      "minecraft:stray": "2017-12-20 18:08:07 +0100",
+      "minecraft:enderman": "2018-01-03 14:18:35 +0100",
+      "minecraft:zombie": "2017-12-17 18:44:22 +0100",
+      "minecraft:zombie_villager": "2017-12-17 22:46:45 +0100"
     },
     "done": false
   },
@@ -1050,6 +1037,12 @@
   "minecraft:recipes/misc/pink_dye_from_peony": {
     "criteria": {
       "has_double_plant": "2018-01-03 12:34:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2019-07-09 17:49:02 +0200"
     },
     "done": true
   },
@@ -1275,6 +1268,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_string": "2019-07-09 17:49:02 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_fence_gate": {
     "criteria": {
       "has_planks": "2017-12-17 18:40:17 +0100"
@@ -1302,6 +1301,12 @@
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2017-12-20 18:39:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_string": "2019-07-09 17:49:02 +0200"
     },
     "done": true
   },
@@ -1397,9 +1402,9 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:mountains": "2017-12-17 18:05:13 +0100",
-      "minecraft:mushroom_fields": "2017-12-17 22:54:08 +0100",
       "minecraft:forest": "2017-12-17 18:00:18 +0100",
+      "minecraft:mushroom_fields": "2017-12-17 22:54:08 +0100",
+      "minecraft:mountains": "2017-12-17 18:05:13 +0100",
       "minecraft:desert": "2017-12-17 18:01:29 +0100",
       "minecraft:birch_forest": "2017-12-17 18:02:35 +0100",
       "minecraft:snowy_beach": "2017-12-20 18:09:06 +0100",
@@ -1672,5 +1677,6 @@
       "has_glass": "2018-07-04 00:53:10 +0200"
     },
     "done": true
-  }
+  },
+  "DataVersion": 1968
 }

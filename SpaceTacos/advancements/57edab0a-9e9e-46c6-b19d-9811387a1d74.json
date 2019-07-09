@@ -498,13 +498,13 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
+  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
     "criteria": {
       "has_sand": "2017-12-17 22:58:29 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
+  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
       "has_sand": "2017-12-17 22:58:29 +0100"
     },
@@ -1466,6 +1466,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2019-07-06 12:58:02 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_fence_gate": {
     "criteria": {
       "has_planks": "2017-12-17 18:40:17 +0100"
@@ -1614,8 +1620,8 @@
     "criteria": {
       "minecraft:jungle_edge": "2017-12-20 18:01:50 +0100",
       "minecraft:snowy_mountains": "2017-12-20 18:06:34 +0100",
-      "minecraft:forest": "2017-12-17 18:00:14 +0100",
       "minecraft:mountains": "2017-12-20 17:54:19 +0100",
+      "minecraft:forest": "2017-12-17 18:00:14 +0100",
       "minecraft:taiga": "2017-12-20 17:55:25 +0100",
       "minecraft:desert_hills": "2017-12-17 18:00:48 +0100",
       "minecraft:giant_tree_taiga": "2017-12-20 17:55:32 +0100",

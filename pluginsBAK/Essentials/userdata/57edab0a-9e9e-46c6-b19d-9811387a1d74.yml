@@ -1,0 +1,30 @@
+lastAccountName: Gewalt
+timestamps:
+  login: 1562410571882
+  logout: 1562410865058
+  lastteleport: 1558893356079
+ipAddress: 109.222.108.179
+lastlocation:
+  world: SpaceTacos
+  x: 634.8354856166259
+  y: 150.53740729563484
+  z: -992.2682273981121
+  yaw: -51.916046
+  pitch: 28.746767
+afk: false
+logoutlocation:
+  world: SpaceTacos
+  x: 703.6028163904584
+  y: 146.26035257080463
+  z: -1131.9242213708305
+  yaw: -322.47327
+  pitch: 10.124524
+homes:
+  jungle:
+    world: SpaceTacos
+    x: 1567.1965663144142
+    y: 87.0
+    z: -622.0364006018344
+    yaw: 63.88294
+    pitch: 57.299976
+godmode: false
