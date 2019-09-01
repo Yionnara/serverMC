@@ -1,3 +1,3 @@
 #!/bin/sh
 cd ~/serverMC
-java -jar spigot-1.14.3.jar
+java -jar spigot-1.14.4.jar
