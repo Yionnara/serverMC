@@ -25,7 +25,6 @@ worlds:
     entryfee:
       ==: MVEntryFee
       amount: '0.0'
-      currency: '-1'
     hunger: 'false'
     autoHeal: 'true'
     adjustSpawn: 'true'
@@ -73,7 +72,6 @@ worlds:
     entryfee:
       ==: MVEntryFee
       amount: '0.0'
-      currency: '-1'
     hunger: 'true'
     autoHeal: 'true'
     adjustSpawn: 'true'
@@ -121,7 +119,6 @@ worlds:
     entryfee:
       ==: MVEntryFee
       amount: '0.0'
-      currency: '-1'
     hunger: 'true'
     autoHeal: 'true'
     adjustSpawn: 'true'
@@ -169,7 +166,6 @@ worlds:
     entryfee:
       ==: MVEntryFee
       amount: '0.0'
-      currency: '-1'
     hunger: 'true'
     autoHeal: 'true'
     adjustSpawn: 'true'

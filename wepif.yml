@@ -15,10 +15,6 @@
 #   into WEPIF, paste it into http://yaml-online-parser.appspot.com/
 #   and see if it gives "ERROR:".
 # - Lines starting with # are comments and so they are ignored.
-#
-# About Configuration Permissions
-# - See http://wiki.sk89q.com/wiki/WorldEdit/Permissions/Bukkit
-# - Now with multiworld support (see example)
 
 
 ignore-nijiperms-bridges: true
@@ -29,10 +25,9 @@ resolvers:
     - bPermissionsResolver
     - GroupManagerResolver
     - NijiPermissionsResolver
+    - VaultResolver
     - DinnerPermsResolver
     - FlatFilePermissionsResolver
-    disabled:
-    - VaultResolver
 permissions:
     groups:
         default:
