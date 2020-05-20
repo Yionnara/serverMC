@@ -1,7 +1,8 @@
 lastAccountName: Arneus5
 timestamps:
-  login: 1569874011133
+  login: 1570127248982
   lastteleport: 1569872622306
+  logout: 1570133178469
 ipAddress: 78.205.109.10
 lastlocation:
   world: SpaceTacos
@@ -11,3 +12,10 @@ lastlocation:
   yaw: -160.63269
   pitch: 33.30066
 godmode: false
+logoutlocation:
+  world: SpaceTacos
+  x: -88.19530252710504
+  y: 72.0
+  z: -82.21005987414316
+  yaw: -301.57568
+  pitch: 35.55272

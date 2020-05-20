@@ -1,21 +1,21 @@
 lastAccountName: Ant01nemax
 timestamps:
-  login: 1569873998700
-  logout: 1569872402333
+  login: 1570286116170
+  logout: 1570286441104
 ipAddress: 2.4.126.250
 afk: false
 lastlocation:
   world: SpaceTacos
-  x: 132.5
-  y: 68.0
-  z: -203.5
-  yaw: 122.248314
-  pitch: -7.6482844
+  x: 24.311682431484265
+  y: 66.0
+  z: 32.724689349911515
+  yaw: -234.6001
+  pitch: -1.049962
 logoutlocation:
   world: SpaceTacos
-  x: 28.0
-  y: 80.0
-  z: 35.0
-  yaw: 0.0
-  pitch: 0.0
+  x: -87.41400433285321
+  y: 71.0
+  z: -78.99038961609116
+  yaw: 130.96603
+  pitch: 19.349993
 godmode: false
