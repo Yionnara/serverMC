@@ -1,20 +1,21 @@
 lastAccountName: Gewalt
 timestamps:
-  login: 1589934127832
-  lastteleport: 1589934189250
-  logout: 1589934343601
+  login: 1595796792955
+  lastteleport: 1595802624362
+  logout: 1595803435660
 ipAddress: 91.169.189.158
 lastlocation:
-  world: flatroom
-  x: -145.57663574354314
-  y: 22.23586363169441
-  z: -88.09340626983801
-  yaw: -309.42407
-  pitch: 1.9926509
+  world: contest
+  x: 603.6999999880791
+  y: 117.0
+  z: 957.6999999880791
+  yaw: 281.32736
+  pitch: 4.7914715
 logoutlocation:
   world: flatroom
-  x: 1193.2574857001266
-  y: 95.85172529538535
-  z: 115.32623490394758
-  yaw: -205.88184
-  pitch: 13.97203
+  x: 1175.0710173782206
+  y: 119.59811054888746
+  z: 525.2924842782155
+  yaw: -16.350098
+  pitch: 20.303715
+afk: false
